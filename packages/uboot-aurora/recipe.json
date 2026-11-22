@@ -1,8 +1,8 @@
 {
   "source": "uboot-aurora",
-  "version": "2026.07.aurora11-1",
+  "version": "2026.07.aurora12-1",
   "kind": "upstream",
   "upstream": {"pin": "uboot-aurora"},
-  "changes": "Aurora's common Apple Silicon U-Boot with the MacBook Neo MTP handoff, built as alarm-aurora builds it (apple_m1_defconfig); update-m1n1 combines it with aura and the kernel's device trees.",
+  "changes": "Aurora's common Apple Silicon U-Boot with the MacBook Neo MTP handoff, built as alarm-aurora builds it (apple_m1_defconfig); update-m1n1 combines it with aura and the kernel's device trees.\nPin aurora-wip 5445237f, which binds the T8140 and T8142 NVMe controllers (u-boot#47) and picks the ESP on every Apple NVMe controller (u-boot#50), as alarm-aurora#415 does.",
   "alarm": ["uboot-aurora"]
 }
